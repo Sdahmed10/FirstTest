@@ -24,7 +24,11 @@ public class searchproduct {
         login = driver.findElement(By.xpath("//a[normalize-space()='Signup / Login']"));
         login.click();
 
-        // on va remplir les champs necessaires
+        //on va remplir les champs necessaires ;)
+
+
+
+
         WebElement email;
         email = driver.findElement(By.xpath("//input[@data-qa='login-email']"));
         // comme j'ai dit lorsque le champ est deja saisi on va utiliser la commande pour supprimé le contenu et saisir un nouveau email
